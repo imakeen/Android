@@ -1,0 +1,430 @@
+-- Merging decision tree log ---
+permission#com.example.myapplication.permission.JPUSH_MESSAGE
+INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:5:5-7:47
+	android:protectionLevel
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:7:9-44
+	android:name
+		INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:6:9-65
+uses-permission#com.example.myapplication.permission.JPUSH_MESSAGE
+INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:10:22-78
+category#com.example.myapplication
+INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:84:17-61
+INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:116:17-61
+INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:130:17-61
+INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:146:17-61
+INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:181:17-61
+INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:191:17-70
+INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:203:17-61
+	android:name
+		INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+		INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+		INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+		INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+		INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+		INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+		INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:84:27-58
+provider#cn.jpush.android.service.DataProvider
+INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:102:9-106:40
+	android:process
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:105:13-40
+	android:authorities
+		INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:103:13-64
+	android:exported
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:106:13-37
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:104:13-65
+provider#cn.jpush.android.service.DownloadProvider
+INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:135:9-138:39
+	android:authorities
+		INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:136:13-68
+	android:exported
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:138:13-36
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:137:13-69
+meta-data#JPUSH_CHANNEL
+INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:220:9-222:48
+	android:value
+		INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:222:13-45
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:221:13-41
+meta-data#JPUSH_APPKEY
+INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:223:9-225:47
+	android:value
+		INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:225:13-44
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:224:13-40
+manifest
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:2:1-228:12
+INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:2:1-228:12
+INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:2:1-228:12
+INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:2:1-228:12
+INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:2:1-228:12
+INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:2:1-228:12
+INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:2:1-228:12
+	package
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+		INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:2:1-228:12
+		INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:2:1-228:12
+		INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.INTERNET
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:13:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:14:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:15:5-80
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:15:22-77
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:16:5-84
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:16:22-81
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:18:5-76
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:18:22-73
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE 
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:21:5-92
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:21:22-89
+uses-permission#android.permission.VIBRATE
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:25:5-66
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:25:22-63
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:26:22-75
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:27:22-78
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:28:5-76
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:28:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:29:5-79
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:29:22-76
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:30:5-85
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:30:22-82
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:31:5-89
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:31:22-86
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:32:22-76
+uses-permission#android.permission.GET_TASKS
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:33:5-68
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:33:22-65
+application
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:35:5-227:19
+	android:label
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:38:9-41
+	android:icon
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:36:9-45
+	android:allowBackup
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:37:9-36
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:39:9-64
+activity#com.example.jpushdemo.MainActivity
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:42:9-49:20
+	android:label
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:44:13-45
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:43:13-62
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:45:13-48:29
+action#android.intent.action.MAIN
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:46:17-69
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:46:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:47:17-77
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:47:27-74
+activity#com.example.jpushdemo.PushSetActivity
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:51:9-53:57
+	android:label
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:53:13-45
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:52:13-65
+activity#com.example.jpushdemo.SettingActivity
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:55:9-57:57
+	android:label
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:57:13-45
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:56:13-65
+activity#com.example.jpushdemo.TestActivity
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:59:9-66:20
+	android:exported
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:61:13-37
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:60:13-62
+intent-filter#action:name:jpush.testAction+category:name:jpush.testCategory
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:62:13-65:29
+action#jpush.testAction
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:63:17-59
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:63:25-56
+category#jpush.testCategory
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:64:17-63
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:64:27-60
+activity#cn.jpush.android.ui.PopWinActivity
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:69:9-72:49
+	android:exported
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:72:13-37
+	android:theme
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:71:13-49
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:70:13-62
+activity#cn.jpush.android.ui.PushActivity
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:75:9-86:20
+	android:exported
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:79:13-37
+	android:configChanges
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:77:13-63
+	android:theme
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:78:13-60
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:76:13-60
+intent-filter#action:name:cn.jpush.android.ui.PushActivity+category:name:android.intent.category.DEFAULT+category:name:com.example.myapplication
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:80:13-85:29
+action#cn.jpush.android.ui.PushActivity
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:81:17-75
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:81:25-72
+category#android.intent.category.DEFAULT
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:83:17-76
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:83:27-73
+service#cn.jpush.android.service.PushService
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:90:9-99:19
+	android:process
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:92:13-40
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:91:13-64
+intent-filter#action:name:cn.jpush.android.intent.PUSH_TIME+action:name:cn.jpush.android.intent.PushService+action:name:cn.jpush.android.intent.REGISTER+action:name:cn.jpush.android.intent.REPORT
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:93:13-98:29
+action#cn.jpush.android.intent.REGISTER
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:94:17-75
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:94:25-72
+action#cn.jpush.android.intent.REPORT
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:95:17-73
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:95:25-70
+action#cn.jpush.android.intent.PushService
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:96:17-78
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:96:25-75
+action#cn.jpush.android.intent.PUSH_TIME
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:97:17-76
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:97:25-73
+service#cn.jpush.android.service.DaemonService
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:110:9-119:19
+	android:enabled
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:112:13-35
+	android:exported
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:113:13-36
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:111:13-66
+intent-filter#action:name:cn.jpush.android.intent.DaemonService+category:name:com.example.myapplication
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:114:13-117:29
+action#cn.jpush.android.intent.DaemonService
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:115:17-80
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:115:25-77
+activity#cn.jpush.android.service.DActivity
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:122:9-132:20
+	android:enabled
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:124:13-35
+	android:exported
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:125:13-36
+	android:theme
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:126:13-72
+	android:taskAffinity
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:127:13-48
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:123:13-62
+intent-filter#action:name:cn.jpush.android.intent.DActivity+category:name:com.example.myapplication
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:128:13-131:29
+action#cn.jpush.android.intent.DActivity
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:129:17-76
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:129:25-73
+receiver#cn.jpush.android.service.PushReceiver
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:141:9-159:20
+	android:enabled
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:143:13-35
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:142:13-65
+intent-filter#action:name:cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+category:name:com.example.myapplication
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:144:13-147:29
+	android:priority
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:144:28-51
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:145:17-94
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:145:25-91
+intent-filter#action:name:android.intent.action.USER_PRESENT+action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:148:13-151:29
+action#android.intent.action.USER_PRESENT
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:149:17-77
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:149:25-74
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:150:17-79
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:150:25-76
+intent-filter#action:name:android.intent.action.PACKAGE_ADDED+action:name:android.intent.action.PACKAGE_REMOVED+data:scheme:package
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:153:13-158:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:154:17-78
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:154:25-75
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:155:17-80
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:155:25-77
+data
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:157:17-50
+	android:scheme
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:157:23-47
+receiver#cn.jpush.android.service.AlarmReceiver
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:162:9-164:40
+	android:exported
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:164:13-37
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:163:13-66
+receiver#cn.jpush.android.service.SchedulerReceiver
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:167:9-169:40
+	android:exported
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:169:13-37
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:168:13-70
+receiver#com.example.jpushdemo.MyReceiver
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:172:9-183:20
+	android:enabled
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:174:13-35
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:173:13-60
+intent-filter#action:name:cn.jpush.android.intent.CONNECTION+action:name:cn.jpush.android.intent.MESSAGE_RECEIVED+action:name:cn.jpush.android.intent.NOTIFICATION_OPENED+action:name:cn.jpush.android.intent.NOTIFICATION_RECEIVED+action:name:cn.jpush.android.intent.REGISTRATION+category:name:com.example.myapplication
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:175:13-182:29
+action#cn.jpush.android.intent.REGISTRATION
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:176:17-79
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:176:25-76
+action#cn.jpush.android.intent.MESSAGE_RECEIVED
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:177:17-83
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:177:25-80
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:178:17-88
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:178:25-85
+action#cn.jpush.android.intent.NOTIFICATION_OPENED
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:179:17-86
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:179:25-83
+action#cn.jpush.android.intent.CONNECTION
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:180:17-77
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:180:25-74
+receiver#com.example.jpushdemo.PushMessageReceiver
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:188:9-193:20
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:188:19-75
+intent-filter#action:name:cn.jpush.android.intent.RECEIVE_MESSAGE+category:name:com.example.myapplication
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:189:13-192:29
+action#cn.jpush.android.intent.RECEIVE_MESSAGE
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:190:17-82
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:190:25-79
+activity#cn.jpush.android.service.JNotifyActivity
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:196:9-205:20
+	android:exported
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:198:13-37
+	android:theme
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:200:13-72
+	android:taskAffinity
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:199:13-48
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:197:13-68
+intent-filter#action:name:cn.jpush.android.intent.JNotifyActivity+category:name:com.example.myapplication
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:201:13-204:29
+action#cn.jpush.android.intent.JNotifyActivity
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:202:17-82
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:202:25-79
+service#com.example.jpushdemo.PushService
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:210:9-216:19
+	android:process
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:212:13-40
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:211:13-61
+intent-filter#action:name:cn.jiguang.user.service.action
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:213:13-215:29
+action#cn.jiguang.user.service.action
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:214:17-73
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:214:25-70
+receiver#cn.jpush.android.asus.AsusPushMessageReceiver
+ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:218:9-91
+	android:name
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:218:19-79
+uses-sdk
+INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+		INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+		ADDED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+		INJECTED from F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml

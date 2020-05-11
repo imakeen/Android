@@ -1,0 +1,427 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication"
+4    android:versionCode="360"
+5    android:versionName="3.6.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="9"
+8-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml
+10    <!-- Required -->
+11    <permission
+12        android:name="com.example.myapplication.permission.JPUSH_MESSAGE"
+12-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:6:9-65
+13        android:protectionLevel="signature" />
+13-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:7:9-44
+14
+15    <!-- Required  一些系统要求的权限，如访问网络等 -->
+16    <uses-permission android:name="com.example.myapplication.permission.JPUSH_MESSAGE" />
+16-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+17-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:11:5-79
+17-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:12:5-67
+18-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:12:22-64
+19    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+19-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:13:5-75
+19-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:13:22-72
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:14:5-81
+20-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:14:22-78
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:15:5-80
+21-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:15:22-77
+22    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+22-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:16:5-84
+22-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:16:22-81
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:17:5-79
+23-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:17:22-76
+24    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+24-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:18:5-76
+24-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:18:22-73
+25
+26    <!-- 华为角标 -->
+27    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE " />
+27-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:21:5-92
+27-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:21:22-89
+28
+29    <!-- Optional for location -->
+30    <uses-permission android:name="android.permission.VIBRATE" />
+30-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:25:5-66
+30-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:25:22-63
+31    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- 用于开启 debug 版本的应用在6.0 系统上 层叠窗口权限 -->
+31-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:26:5-78
+31-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:26:22-75
+32    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+32-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:27:5-81
+32-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:27:22-78
+33    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+33-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:28:5-76
+33-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:28:22-73
+34    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+34-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:29:5-79
+34-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:29:22-76
+35    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" /> <!-- Android Q后台定位权限 -->
+35-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:30:5-85
+35-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:30:22-82
+36    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+36-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:31:5-89
+36-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:31:22-86
+37    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+37-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:32:5-79
+37-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:32:22-76
+38    <uses-permission android:name="android.permission.GET_TASKS" />
+38-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:33:5-68
+38-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:33:22-65
+39
+40    <application
+40-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:35:5-227:19
+41        android:name="com.example.jpushdemo.ExampleApplication"
+41-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:39:9-64
+42        android:allowBackup="false"
+42-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:37:9-36
+43        android:debuggable="true"
+44        android:icon="@drawable/ic_launcher"
+44-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:36:9-45
+45        android:label="@string/app_name" >
+45-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:38:9-41
+46
+47        <!-- For test only 测试的主程序 -->
+48        <activity
+48-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:42:9-49:20
+49            android:name="com.example.jpushdemo.MainActivity"
+49-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:43:13-62
+50            android:label="@string/app_name" >
+50-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:44:13-45
+51            <intent-filter>
+51-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:45:13-48:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:46:17-69
+52-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:46:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:47:17-77
+54-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:47:27-74
+55            </intent-filter>
+56        </activity>
+57        <!-- For test only 测试高级功能 -->
+58        <activity
+58-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:51:9-53:57
+59            android:name="com.example.jpushdemo.PushSetActivity"
+59-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:52:13-65
+60            android:label="@string/app_name" />
+60-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:53:13-45
+61        <!-- For test only 测试设置 -->
+62        <activity
+62-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:55:9-57:57
+63            android:name="com.example.jpushdemo.SettingActivity"
+63-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:56:13-65
+64            android:label="@string/app_name" />
+64-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:57:13-45
+65        <!-- For test only 测试状态通知栏，需要打开的Activity -->
+66        <activity
+66-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:59:9-66:20
+67            android:name="com.example.jpushdemo.TestActivity"
+67-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:60:13-62
+68            android:exported="false" >
+68-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:61:13-37
+69            <intent-filter>
+69-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:62:13-65:29
+70                <action android:name="jpush.testAction" />
+70-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:63:17-59
+70-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:63:25-56
+71
+72                <category android:name="jpush.testCategory" />
+72-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:64:17-63
+72-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:64:27-60
+73            </intent-filter>
+74        </activity>
+75
+76        <!-- Rich push 核心功能 since 2.0.6 -->
+77        <activity
+77-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:69:9-72:49
+78            android:name="cn.jpush.android.ui.PopWinActivity"
+78-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:70:13-62
+79            android:exported="false"
+79-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:72:13-37
+80            android:theme="@style/MyDialogStyle" />
+80-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:71:13-49
+81
+82        <!-- Required SDK核心功能 -->
+83        <activity
+83-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:75:9-86:20
+84            android:name="cn.jpush.android.ui.PushActivity"
+84-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:76:13-60
+85            android:configChanges="orientation|keyboardHidden"
+85-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:77:13-63
+86            android:exported="false"
+86-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:79:13-37
+87            android:theme="@android:style/Theme.NoTitleBar" >
+87-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:78:13-60
+88            <intent-filter>
+88-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:80:13-85:29
+89                <action android:name="cn.jpush.android.ui.PushActivity" />
+89-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:81:17-75
+89-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:81:25-72
+90
+91                <category android:name="android.intent.category.DEFAULT" />
+91-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:83:17-76
+91-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:83:27-73
+92                <category android:name="com.example.myapplication" />
+92-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:84:27-58
+93            </intent-filter>
+94        </activity>
+95
+96        <!-- Required SDK 核心功能 -->
+97        <!-- 可配置android:process参数将PushService放在其他进程中 -->
+98        <service
+98-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:90:9-99:19
+99            android:name="cn.jpush.android.service.PushService"
+99-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:91:13-64
+100            android:process=":pushcore" >
+100-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:92:13-40
+101            <intent-filter>
+101-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:93:13-98:29
+102                <action android:name="cn.jpush.android.intent.REGISTER" />
+102-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:94:17-75
+102-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:94:25-72
+103                <action android:name="cn.jpush.android.intent.REPORT" />
+103-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:95:17-73
+103-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:95:25-70
+104                <action android:name="cn.jpush.android.intent.PushService" />
+104-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:96:17-78
+104-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:96:25-75
+105                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+105-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:97:17-76
+105-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:97:25-73
+106            </intent-filter>
+107        </service>
+108
+109        <!-- since 3.0.9 Required SDK 核心功能 -->
+110        <provider
+111            android:name="cn.jpush.android.service.DataProvider"
+111-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:104:13-65
+112            android:authorities="com.example.myapplication.DataProvider"
+112-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:103:13-64
+113            android:exported="false"
+113-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:106:13-37
+114            android:process=":pushcore" />
+114-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:105:13-40
+115
+116        <!-- since 1.8.0 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 -->
+117        <!-- 若不启用该功能可删除该组件，或把 enabled 设置成 false ；App 不会被其他 App 拉起，但会拉起其他的 App。 -->
+118        <service
+118-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:110:9-119:19
+119            android:name="cn.jpush.android.service.DaemonService"
+119-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:111:13-66
+120            android:enabled="true"
+120-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:112:13-35
+121            android:exported="true" >
+121-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:113:13-36
+122            <intent-filter>
+122-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:114:13-117:29
+123                <action android:name="cn.jpush.android.intent.DaemonService" />
+123-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:115:17-80
+123-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:115:25-77
+124
+125                <category android:name="com.example.myapplication" />
+125-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:84:27-58
+126            </intent-filter>
+127        </service>
+128
+129        <!-- 可选，如果使用静态Activity方式拉起，该组件必须声明 -->
+130        <activity
+130-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:122:9-132:20
+131            android:name="cn.jpush.android.service.DActivity"
+131-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:123:13-62
+132            android:enabled="true"
+132-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:124:13-35
+133            android:exported="true"
+133-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:125:13-36
+134            android:taskAffinity="jpush.custom"
+134-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:127:13-48
+135            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+135-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:126:13-72
+136            <intent-filter>
+136-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:128:13-131:29
+137                <action android:name="cn.jpush.android.intent.DActivity" />
+137-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:129:17-76
+137-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:129:25-73
+138
+139                <category android:name="com.example.myapplication" />
+139-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:84:27-58
+140            </intent-filter>
+141        </activity>
+142
+143        <!-- since 3.1.0 Required SDK 核心功能 -->
+144        <provider
+145            android:name="cn.jpush.android.service.DownloadProvider"
+145-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:137:13-69
+146            android:authorities="com.example.myapplication.DownloadProvider"
+146-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:136:13-68
+147            android:exported="true" />
+147-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:138:13-36
+148
+149        <!-- Required SDK核心功能 -->
+150        <receiver
+150-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:141:9-159:20
+151            android:name="cn.jpush.android.service.PushReceiver"
+151-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:142:13-65
+152            android:enabled="true" >
+152-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:143:13-35
+153            <intent-filter android:priority="1000" >
+153-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:144:13-147:29
+153-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:144:28-51
+154                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" /> <!-- Required  显示通知栏 -->
+154-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:145:17-94
+154-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:145:25-91
+155                <category android:name="com.example.myapplication" />
+155-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:84:27-58
+156            </intent-filter>
+157            <intent-filter>
+157-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:148:13-151:29
+158                <action android:name="android.intent.action.USER_PRESENT" />
+158-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:149:17-77
+158-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:149:25-74
+159                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+159-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:150:17-79
+159-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:150:25-76
+160            </intent-filter>
+161            <!-- Optional -->
+162            <intent-filter>
+162-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:153:13-158:29
+163                <action android:name="android.intent.action.PACKAGE_ADDED" />
+163-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:154:17-78
+163-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:154:25-75
+164                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+164-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:155:17-80
+164-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:155:25-77
+165
+166                <data android:scheme="package" />
+166-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:157:17-50
+166-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:157:23-47
+167            </intent-filter>
+168        </receiver>
+169
+170        <!-- Required SDK核心功能 -->
+171        <receiver
+171-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:162:9-164:40
+172            android:name="cn.jpush.android.service.AlarmReceiver"
+172-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:163:13-66
+173            android:exported="false" />
+173-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:164:13-37
+174
+175        <!-- 3.5.0新增，用于定时展示功能 -->
+176        <receiver
+176-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:167:9-169:40
+177            android:name="cn.jpush.android.service.SchedulerReceiver"
+177-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:168:13-70
+178            android:exported="false" />
+178-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:169:13-37
+179
+180        <!-- User defined.  For test only  用户自定义的广播接收器 -->
+181        <receiver
+181-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:172:9-183:20
+182            android:name="com.example.jpushdemo.MyReceiver"
+182-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:173:13-60
+183            android:enabled="true" >
+183-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:174:13-35
+184            <intent-filter>
+184-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:175:13-182:29
+185                <action android:name="cn.jpush.android.intent.REGISTRATION" /> <!-- Required  用户注册SDK的intent -->
+185-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:176:17-79
+185-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:176:25-76
+186                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" /> <!-- Required  用户接收SDK消息的intent -->
+186-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:177:17-83
+186-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:177:25-80
+187                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" /> <!-- Required  用户接收SDK通知栏信息的intent -->
+187-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:178:17-88
+187-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:178:25-85
+188                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" /> <!-- Required  用户打开自定义通知栏的intent -->
+188-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:179:17-86
+188-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:179:25-83
+189                <action android:name="cn.jpush.android.intent.CONNECTION" /> <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+189-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:180:17-77
+189-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:180:25-74
+190                <category android:name="com.example.myapplication" />
+190-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:84:27-58
+191            </intent-filter>
+192        </receiver>
+193
+194        <!-- User defined.  For test only  用户自定义接收消息器,3.0.7开始支持,目前新tag/alias接口设置结果会在该广播接收器对应的方法中回调 -->
+195        <!-- since 3.3.0 接收JPush相关事件 -->
+196        <receiver android:name="com.example.jpushdemo.PushMessageReceiver" >
+196-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:188:9-193:20
+196-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:188:19-75
+197            <intent-filter>
+197-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:189:13-192:29
+198                <action android:name="cn.jpush.android.intent.RECEIVE_MESSAGE" />
+198-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:190:17-82
+198-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:190:25-79
+199
+200                <category android:name="com.example.myapplication" />
+200-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:84:27-58
+201            </intent-filter>
+202        </receiver>
+203
+204        <!-- since 3.3.0 Required SDK核心功能 -->
+205        <activity
+205-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:196:9-205:20
+206            android:name="cn.jpush.android.service.JNotifyActivity"
+206-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:197:13-68
+207            android:exported="false"
+207-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:198:13-37
+208            android:taskAffinity="jpush.custom"
+208-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:199:13-48
+209            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+209-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:200:13-72
+210            <intent-filter>
+210-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:201:13-204:29
+211                <action android:name="cn.jpush.android.intent.JNotifyActivity" />
+211-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:202:17-82
+211-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:202:25-79
+212
+213                <category android:name="com.example.myapplication" />
+213-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:84:27-58
+214            </intent-filter>
+215        </activity>
+216
+217        <!-- since 3.3.0 Required SDK 核心功能 -->
+218        <!-- 可配置android:process参数将PushService放在其他进程中 -->
+219        <!-- User defined.  For test only 继承自cn.jpush.android.service.JCommonService -->
+220        <service
+220-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:210:9-216:19
+221            android:name="com.example.jpushdemo.PushService"
+221-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:211:13-61
+222            android:process=":pushcore" >
+222-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:212:13-40
+223            <intent-filter>
+223-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:213:13-215:29
+224                <action android:name="cn.jiguang.user.service.action" />
+224-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:214:17-73
+224-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:214:25-70
+225            </intent-filter>
+226        </service>
+227        <!-- since 3.5.6 新增华硕通道 -->
+228        <receiver android:name="cn.jpush.android.asus.AsusPushMessageReceiver" />
+228-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:218:9-91
+228-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:218:19-79
+229        <!-- Required  . Enable it you can get statistics data with channel -->
+230        <meta-data
+231            android:name="JPUSH_CHANNEL"
+231-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:221:13-41
+232            android:value="default_developer" />
+232-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:222:13-45
+233        <meta-data
+234            android:name="JPUSH_APPKEY"
+234-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:224:13-40
+235            android:value="e09eaff16188ee613955bc9f" /> <!-- </>值来自开发者平台取得的AppKey -->
+235-->F:\Android\ucaijia\my\demo\src\main\AndroidManifest.xml:225:13-44
+236
+237    </application>
+238
+239</manifest>

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\Android\\ucaijia\\my\\demo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ab-rGE\\values-ab-rGE.xml",
+            "map": [
+                {
+                    "source": "F:\\Android\\ucaijia\\my\\demo\\src\\main\\res\\values-ab-rGE\\strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "51",
+                        "endOffsets": "104"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "51",
+                        "endOffsets": "102"
+                    }
+                }
+            ]
+        }
+    ]
+}

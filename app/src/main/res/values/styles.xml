@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorWrite</item>
+        <item name="colorPrimaryDark">@color/colorWrite</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="loading">
+        <item name="android:windowFrame">@null</item>               <!--取消默认Dialog的windowFrame框-->
+        <item name="android:windowNoTitle">true</item>              <!--设置无标题Dialog-->
+        <item name="android:backgroundDimEnabled">false</item>       <!--是否四周变暗-->
+        <item name="android:windowIsFloating">true</item>           <!-- 是否悬浮在activity上 -->
+        <item name="android:windowContentOverlay">@null</item>      <!--取消默认ContentOverlay背景 -->
+        <item name="android:windowBackground">@android:color/transparent
+        </item> <!--取消window默认背景 不然四角会有黑影-->
+    </style>
+
+
+    <style name="fullscreen" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+<!--        <item name="android:windowBackground">@mipmap/welcome</item>-->
+    </style>
+
+</resources>
